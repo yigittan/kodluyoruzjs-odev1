@@ -14,28 +14,7 @@
         <p id="hour"></p>
         <p id="text"><strong>Tarihinde Kodluyoruz Frontend Web development patikasının javascript bölümünün 1. ödevini bitirdin .</strong></p>
     </div>
-    
-    <script>
-        setInterval(dijitalsaat, 1000)
-    function dijitalsaat() {
-        let now = new Date();
-        let hour = now.getHours();
-        let minute = now.getMinutes();
-        let second = now.getSeconds();
-        let date = now.getDate();
-        let today = now.getDay()
-        let days = ["Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"]
-        let gi = days[today-1]
-
-        hour = (hour<10)? "0"+hour:hour;
-        minute = (minute<10)? "0"+minute:minute;
-        second = (second<10)? "0"+second:second;
-
-        let zaman = hour+":"+minute+":"+second+" "+gi;
-        let saat = document.getElementById("hour").innerHTML=zaman;
-    }
-</script>
-<script src="js/ödev.js"></script>
+<script src="analogsaat.js"></script>
     
 </body>
 </html>
