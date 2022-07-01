@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+body {
+    background-color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#text {
+    text-align: center;
+    color: white;
+}
+#text1 {
+    text-align: center;
+    color: white;
+}
+#text2 {
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+#time-part {
+    background-color:   black;
+    border: 2px solid red;
+    width: 1000px;
+    height: 400px;
+}
+
+#hour {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#bitişik {
+    float: left;
+}
+.btn {
+    text-decoration: none;
+    width: 80px;
+    height: 40px;
+    margin-right: 50px;
+    color: white;
+}
